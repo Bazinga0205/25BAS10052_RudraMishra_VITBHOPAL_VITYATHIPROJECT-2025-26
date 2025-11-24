@@ -4,7 +4,6 @@
 
 This is a basic, console-based E-commerce simulation project written in Python. It allows users to register, log in, view available products, add items into a cart, place orders, and check their order status. It also provides a basic distributor view for inventory and customer orders.
 
-Press L to toggle angle snapping on and off.
 
 ##  Features
 
