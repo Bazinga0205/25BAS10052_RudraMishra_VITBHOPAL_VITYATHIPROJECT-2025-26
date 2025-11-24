@@ -266,7 +266,7 @@ def distributor():
          
 if ud.lower() == 'customer' and login_successful == True:
     customer()
-elif ud.lower() ='distributor' and login_successful == True:
+elif ud.lower() =='distributor' and login_successful == True:
     distributor()
 else:
     print("Invalid Action")
@@ -274,4 +274,5 @@ else:
     
     
     
+
 
