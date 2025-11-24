@@ -4,6 +4,8 @@ print("NEW OFFERS -- GET ORDERS WITHIN 5 DAYS!!")
 import csv
 #Services provided:
 #1) FOR CUSTOMER - a)BROWSE - ORDER/ADD TO KART b)CANCEL ORDER c)MY ORDERS
+#2)FOR DISTRIBUTOR: 1)CHECK ORDERS FROM CUSTOMER 2)CHECK PRODUCT INVENTORY
+
 ud=input("Enter user type:")
 #LOGIN AND REGISTER 
 FILENAME = 'User_Data.csv'
@@ -251,6 +253,7 @@ def customer():
 
 def distributor():
     global products
+    #FOR DISTRIBUTOR: 1)CHECK ORDERS FROM CUSTOMER 2)CHECK PRODUCT INVENTORY
     x=input("Action:")
     #check orders
     if action.lower() == 'orders':
@@ -271,3 +274,4 @@ else:
     
     
     
+
